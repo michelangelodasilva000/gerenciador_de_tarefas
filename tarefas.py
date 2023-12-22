@@ -5,7 +5,7 @@ import json
 class Tarefa:
     
 
-    def __init__(self, janela, *itens):
+    def __init__(self, janela):
         self.janela = janela
         self.tarefas = []
         
