@@ -8,7 +8,7 @@ class Tarefa:
     def __init__(self, janela, *itens):
         self.janela = janela
         self.tarefas = []
-        self.itens = itens
+        
 
         self.f1 = Frame(self.janela, width=600, height=300,bg='#F49536')
         self.f1.grid(row=0, column=0, sticky=NSEW)
